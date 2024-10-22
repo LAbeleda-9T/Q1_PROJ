@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> ICT9 Project</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<style>
+
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		margin: 0;
+		font-family: "Poppins", sans-serif;
+	}
+	.topnav{
+		overflow: hidden;
+		background-color: #eebdbf;
+		margin: 20px;
+		text-align: center;
+	}
+	.topnav a {
+		float: left;
+		display: block;
+  		color: black;
+  		padding: 14px 16px;
+  		text-align: center;
+  	}
+	.topnav a:hover {
+  		background-color: #ddd;
+  		color: black;
+  		text-align: center;
+  	}
+  	ul {
+		list-style: none;
+		justify-content: space-between;
+	}
+	li {
+		display: inline;
+	}
+	.header {
+		padding: 20px;
+	}
+	h2 {
+		text-align: center;
+		color: hotpink;
+	}
+
+	.divider{
+		height: 6.5cm;
+	}
+	.column {
+  		float: left;
+  		width:15%;
+  		padding: 15px;
+  		margin: 10px;
+  		align-content: center;
+  		flex: 1;
+	}
+	.row::after {
+  	content: "";
+  	display: table;
+  	clear: both;
+	}
+
+	.row {
+		display: flex;
+		justify-content: space-between;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.container {
+		display:flex;
+		justify-content: center;
+		flex-wrap:wrap;
+	.card {
+		width:250px;
+		background-color: #fbeee4;
+		border-radius: 8px;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+			margin:20px;
+		}
+	.card img{
+		width: 100%;
+		height: auto;
+	}
+	.content {
+		padding:16px;
+	}
+	.content h4{
+		font-size: 20px;
+		margin-bottom:8px;
+	}
+	.content p {
+		color: #666;
+		font-size: 15px;
+		lie height: 1.3;
+	}
+
+	.info{
+		width:100%;
+		background-color: #f7dedf;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+		margin:10px;
+		text-align: center;
+		}
+	.nn {
+		width:50%;
+		background-color: #d3e7d1;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+		margin:10px;
+		text-align: center;
+		}
+	.footer {
+		bottom: 0;
+		position:fixed;
+		background-color:#d29a9f;
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+	}	
+
+	
+
+
+</style>
+</head>
+<body>
+
+		<!--navigation-->
+	<div class="topnav">
+		<ul>	
+	  	<li><a href="#login">Log in</a></li>
+	  	<li><a href="#Signup">Sign Up</a></li>
+	  	<li><a href="#popularitems">Popular</a></li>
+	  	<li><a href="#home">Shop</a></li>
+	  </ul>
+	</div> <br/>
+
+
+		<!--header-->
+	<div class="header">
+		<img src=screenshotforproject.png width="100%"> 
+	</div>
+
+	<div class="divider">
+		<img src="https://i.pinimg.com/originals/e6/3d/f5/e63df52e9a2f20f729916e8ece048b3f.gif" width=100% >
+	</div>
+
+	
+	<h2> POPULAR ITEMS </h2>
+	<section id="popularitems">
+		<!-- 3 column content-->
+	<div class="row">
+  	<div class="column">
+  		<img src="https://i.pinimg.com/1200x/77/65/b9/7765b92859863d58a2a1fcb2ff8d7515.jpg" width="100%">
+    </div>
+
+
+    <div class="column">
+    	<img src="https://i.pinimg.com/enabled_lo/1200x/bf/5a/5d/bf5a5d4d4952a82231c460ba621cb0bd.jpg" width=100%>
+   </div>
+
+   <div class="column">
+    	<img src=https://i.pinimg.com/enabled_lo/1200x/1b/a9/f9/1ba9f94e2c6b42e18358767f1a21cdf1.jpg width="100%">
+  </div>
+	</div>
+</section>
+
+	<!-- Products-->
+	<h2> Items </h2>
+	<div class="container">
+		<div class="card">
+			<img src="https://media.karousell.com/media/photos/products/2024/6/19/sonny_angel__animal_series__ve_1718759941_7c25aafd.jpg" width="50%">
+			<div class="content">
+				<h4> Animal Series v1</h4>
+				<p> ₱849.00 </p>
+				</div>
+		</div>
+
+		<div class="card">
+			<img src=https://www.sonnyangel-france.com/cdn/shop/products/Sonny_angel_regular_animal2_collection.jpg>
+			<div class="content">
+				<h4> Animal Series v2 </h4>
+				<p> ₱849.00 </p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://www.sonnyangel-france.com/cdn/shop/products/Sonny_angel_animal3_collection.jpg">
+			<div class="content">
+				<h4> Animal Series v3 </h4>
+				<p> ₱899.00 </p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://www.sonnyangel-france.com/cdn/shop/products/Sonny_angel_regular_aniamal4_collection.jpg?">
+			<div class="content">
+				<h4> Animal Series v4 </h4>
+				<p> ₱899.00 </p> 
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://dearjude.co.uk/cdn/shop/files/SonnyAngelFlowerSeries_300x300.png?v=1706605169">
+			<div class="content">
+				<h4> Flower Series </h4>
+				<p> ₱849.00 </p> 
+			</div> 
+		</div>
+
+
+		<!--log in form-->
+		<div class="nn">
+		<section id="login">
+		<fieldset>
+		<legend> Log in</legend>
+
+			<label for= "uname">Username</label>
+			<input type= "text" id="Username" name= "uname">
+			<br />
+			<label for= "pword">Password</label>
+			<input type= "Password" id="pword" name= "pcode">
+			<br />
+			<input type="submit" value="Submit">
+		</div>
+		</fieldset>
+		</section>
+
+		<!--Sign up-->
+		<div class="nn">
+		<section id="Signup">
+		<fieldset>
+		<legend> Sign up </legend>
+			<label for= "first-name"> Name </label>
+			<input type= "text" id="first-name" name= "fname">
+			<br />
+
+			<label for= "email">Email Address</label>
+			<input type= "email" id="E-mail" name= "email">
+			<br />
+
+			<label for= "uname">Username</label>
+			<input type= "text" id="Username" name= "uname">
+			<br />
+
+			<label for= "pword">Password</label>
+			<input type= "Password" id="pword" name= "pcode">
+			<br />
+			<input type="submit" value="Submit">
+
+
+		</div>
+		</fieldset>
+		</section>
+
+
+
+
+
+	
+
+			<!--Contact info-->
+			<div class="info">
+			<h4>For more Information..</h4>
+			<p> Contact Number: 00000000000 <br>
+				Email: Leonaabeleda@gmail.com <br>
+				Visit :<a href="https://www.sonnyangel.com/"> SonnyAngel.com </a></p>
+			</div>
+
+			<!--footer-->
+			<div class="footer">
+  			<p>Leona Abeleda | 9-Topaz </p>
+	</div>
+	</div>
+			
+	
+
+
+</body>
+</html>
